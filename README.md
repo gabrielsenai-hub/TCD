@@ -35,3 +35,4 @@ Sou estudante de Desenvolvimento de Sistemas, apaixonado por tecnologia e aprend
 **Contato**  
 Gabriel Oliveira Silva  
 Email: ogabriel292@gmail.com  
+Linkedin: linkedin.com/in/gabriel-silva-b39901185
