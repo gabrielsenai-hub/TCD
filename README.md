@@ -36,21 +36,35 @@ Este repositório contém o projeto desenvolvido como **Trabalho Final da discip
 
 <ul>
   <li>
-    <code>src/main/java/br/senai/poo/tcd</code>: Contém todo o código‑fonte Java do sistema
+    <code>src/main/java</code>: Contém todo o código‑fonte Java do sistema
     <ul>
-      <li><code>Main</code>: Classe de inicialização da aplicação</li>
-      <li><code>model/</code>: Pacote de armazenamento de entidades
-<li><code>cliente</code>: Entidade que representa o cliente no banco de dados</li>
-</li>
-      <li><code>dao/</code>: 
-<li><code>dao/clienteDAO</code>: Responsável pelas operações CRUD de cliente</li>
-</li>
+      <li>
+        <code>Main.java</code>: Classe de inicialização da aplicação
+      </li>
+      <li>
+        <code>model/</code>: Pacote de armazenamento de entidades
+        <ul>
+          <li>
+            <code>Cliente.java</code>: Entidade que representa o cliente no banco de dados
+          </li>
+        </ul>
+      </li>
+      <li>
+        <code>dao/</code>: Pacote de acesso a dados
+        <ul>
+          <li>
+            <code>ClienteDAO.java</code>: Responsável pelas operações CRUD de cliente
+          </li>
+        </ul>
+      </li>
     </ul>
   </li>
   <li>
     <code>src/main/resources</code>: Arquivos de configuração do projeto
     <ul>
-      <li><code>hibernate.cfg.xml</code>: Definições de conexão e mapeamento do Hibernate</li>
+      <li>
+        <code>hibernate.cfg.xml</code>: Definições de conexão e mapeamento do Hibernate
+      </li>
     </ul>
   </li>
 </ul>
