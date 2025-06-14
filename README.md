@@ -1,6 +1,6 @@
 # Trabalho Final - Sistema de Cadastro de Clientes
 
-Este repositório contém o projeto desenvolvido como **Trabalho Final da disciplina de Programação de Aplicativos** do SENAI. O objetivo é consolidar os conhecimentos adquiridos ao longo do curso, construindo uma aplicação completa de **CRUD** em **Java**, com **Swing**, **Hibernate** e **MySQL**.
+Este repositório contém o projeto desenvolvido como **Trabalho Final da disciplina de Programação de Aplicativos** do curso de Desenvolvimento de Sistemas, no SENAI. O objetivo é consolidar os conhecimentos adquiridos ao longo do curso, até o presente momento. Construindo uma aplicação completa de **CRUD** em **Java**, com **Swing**, **Hibernate** e **MySQL**.
 
 ---
 
@@ -71,6 +71,8 @@ Este repositório contém o projeto desenvolvido como **Trabalho Final da discip
     </ul>
   </li>
 </ul>
+
+---
 
 ## Configuração do Banco de Dados
 
