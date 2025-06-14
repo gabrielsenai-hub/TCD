@@ -36,26 +36,26 @@ Este repositório contém o projeto desenvolvido como **Trabalho Final da discip
 
 <ul>
   <li>
-    <code>src/main/java</code>: Contém todo o código‑fonte Java do sistema
+    <a href = "https://github.com/gabrielsenai-hub/TCD/blob/main/TCD/src/main/java/"><code>src/main/java</code></a>: Contém todo o código‑fonte Java do sistema
     <ul>
       <li>
-        <code>Main.java</code>: Classe de inicialização da aplicação
+        <a href = "https://github.com/gabrielsenai-hub/TCD/blob/main/TCD/src/main/java/Main.java"><code>Main.java</code></a>: Classe de inicialização da aplicação
       </li>
 	<br>
       <li>
-        <code>model/</code>: Pacote de armazenamento de entidades
+        <a href = "https://github.com/gabrielsenai-hub/TCD/blob/main/TCD/src/main/java/model/"> <code>model/</code></a>: Pacote de armazenamento de entidades
         <ul>
           <li>
-            <code>Cliente.java</code>: Entidade que representa o cliente no banco de dados
+            <a href = "https://github.com/gabrielsenai-hub/TCD/blob/main/TCD/src/main/java/model/Cliente.java"><code>Cliente.java</code></a>: Entidade que representa o cliente no banco de dados
           </li>
         </ul>
       </li>
 	<br>
       <li>
-        <code>dao/</code>: Pacote de acesso a dados
+        <a href = "https://github.com/gabrielsenai-hub/TCD/blob/main/TCD/src/main/java/dao/"> <code>dao/</code></a>: Pacote de acesso a dados
         <ul>
           <li>
-            <code>ClienteDAO.java</code>: Responsável pelas operações CRUD de cliente
+            <a = href = "https://github.com/gabrielsenai-hub/TCD/blob/main/TCD/src/main/java/dao/ClienteDAO.java"> <code>ClienteDAO.java</code> </a>: Responsável pelas operações CRUD de cliente
           </li>
         </ul>
       </li>
@@ -63,10 +63,10 @@ Este repositório contém o projeto desenvolvido como **Trabalho Final da discip
     </ul>
   </li>
   <li>
-    <code>src/main/resources</code>: Arquivos de configuração do projeto
+    <a href ="https://github.com/gabrielsenai-hub/TCD/blob/main/TCD/src/main/resources/"><code>src/main/resources</code></a>: Arquivos de configuração do projeto
     <ul>
       <li>
-        <code>hibernate.cfg.xml</code>: Definições de conexão e mapeamento do Hibernate
+        <a href = "https://github.com/gabrielsenai-hub/TCD/blob/main/TCD/src/main/resources/hibernate.cfg.xml"> <code>hibernate.cfg.xml</code></a>: Definições de conexão e mapeamento do Hibernate
       </li>
     </ul>
   </li>
