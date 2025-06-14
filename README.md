@@ -41,6 +41,7 @@ Este repositório contém o projeto desenvolvido como **Trabalho Final da discip
       <li>
         <code>Main.java</code>: Classe de inicialização da aplicação
       </li>
+	<br>
       <li>
         <code>model/</code>: Pacote de armazenamento de entidades
         <ul>
@@ -49,6 +50,7 @@ Este repositório contém o projeto desenvolvido como **Trabalho Final da discip
           </li>
         </ul>
       </li>
+	<br>
       <li>
         <code>dao/</code>: Pacote de acesso a dados
         <ul>
@@ -57,6 +59,7 @@ Este repositório contém o projeto desenvolvido como **Trabalho Final da discip
           </li>
         </ul>
       </li>
+	<br>
     </ul>
   </li>
   <li>
@@ -68,4 +71,11 @@ Este repositório contém o projeto desenvolvido como **Trabalho Final da discip
     </ul>
   </li>
 </ul>
+
+## Configuração do Banco de Dados
+
+1. Instale o **MySQL Workbench**.
+2. [Baixe](https://drive.google.com/file/d/1AJ3VKyzebuCLdL-Li0rcSTVlnPjp0TRc/view?usp=drive_link) e rode o script sql no MySQL Connections.
+3. Atualize o hibernate.cfg.xml com o seus dados de usuario e senha, assim como a url JDBC(não é preciso se o IP do localhost for o mesmo).
+
 
