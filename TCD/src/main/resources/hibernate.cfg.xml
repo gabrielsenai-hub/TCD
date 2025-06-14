@@ -30,7 +30,7 @@
         <!-- Senha correspondente ao usuário acima -->
 
         <property name="hibernate.connection.pool_size">10</property>
-        <!-- Tamanho do pool de conexões gerenciado pelo Hibernate (apenas 10 conexões simultânea) -->
+        <!-- Tamanho do pool de conexões gerenciado pelo Hibernate (apenas 10 conexões simultâneas) -->
 
         <property name="hibernate.current_session_context_class">thread</property>
         <!-- Define o modo de gerenciamento da sessão atual (associada à thread atual) -->
