@@ -2,51 +2,61 @@
 <!-- Declaração XML padrão, definindo a codificação UTF-8 -->
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <!-- Bloco principal do projeto Maven. Define namespaces e onde encontrar o schema do POM -->
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<!-- Bloco principal do projeto Maven. Define namespaces e onde encontrar 
+		o schema do POM -->
 
-    <modelVersion>4.0.0</modelVersion>
-    <!-- Versão do modelo POM que está sendo usada (padrão) -->
+	<modelVersion>4.0.0</modelVersion>
+	<!-- Versão do modelo POM que está sendo usada (padrão) -->
 
-    <groupId>br.senai.poo</groupId>
-    <!-- Define o grupo do projeto (normalmente segue o padrão de domínio) -->
+	<groupId>br.senai.poo</groupId>
+	<!-- Define o grupo do projeto (normalmente segue o padrão de domínio) -->
 
-    <artifactId>TCD</artifactId>
-    <!-- Nome do artefato, ou seja, o nome do projeto/módulo -->
+	<artifactId>TCD</artifactId>
+	<!-- Nome do artefato, ou seja, o nome do projeto/módulo -->
 
-    <version>1.0-SNAPSHOT</version>
-    <!-- Versão do projeto. "SNAPSHOT" indica que ainda está em desenvolvimento -->
+	<version>1.0-SNAPSHOT</version>
+	<!-- Versão do projeto. "SNAPSHOT" indica que ainda está em desenvolvimento -->
 
-    <properties>
-        <maven.compiler.source>23</maven.compiler.source>
-        <maven.compiler.target>23</maven.compiler.target>
-        <!-- Define a versão do Java usada para compilar o projeto (Java 23 neste caso) -->
+	<properties>
+		<maven.compiler.source>23</maven.compiler.source>
+		<maven.compiler.target>23</maven.compiler.target>
+		<!-- Define a versão do Java usada para compilar o projeto (Java 23 neste 
+			caso) -->
 
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <!-- Define o encoding padrão para os arquivos-fonte do projeto -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<!-- Define o encoding padrão para os arquivos-fonte do projeto -->
 
-    </properties>
+	</properties>
 
-    <dependencies>
-        <!-- Bloco onde são declaradas as dependências que o projeto precisa -->
+	<dependencies>
+		<!-- Bloco onde são declaradas as dependências que o projeto precisa -->
 
-        <!-- Hibernate ORM (versão 5.6.15.Final) -->
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>5.6.15.Final</version>
-        </dependency>
-        <!-- Essa dependência permite usar Hibernate para persistência com JPA -->
+		<!-- Adicionando o JPA para anotações -->
+		<dependency>
+			<groupId>javax.persistence</groupId>
+			<artifactId>javax.persistence-api</artifactId>
+			<version>2.2</version>
+		</dependency>
 
-        <!-- Driver JDBC para MySQL (versão 8.0.33) -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.33</version>
-        </dependency>
-        <!-- Essa dependência permite conectar seu projeto Java ao banco de dados MySQL -->
+		<!-- Hibernate ORM (versão 5.6.15.Final) -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.6.15.Final</version>
+		</dependency>
+		<!-- Essa dependência permite usar Hibernate para persistência com JPA -->
 
-    </dependencies>
+		<!-- Driver JDBC para MySQL (versão 8.0.33) -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+		</dependency>
+		<!-- Essa dependência permite conectar seu projeto Java ao banco de dados 
+			MySQL -->
+
+	</dependencies>
 
 </project>
