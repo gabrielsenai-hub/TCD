@@ -2,6 +2,7 @@ import dao.ClienteDAO;
 import model.Cliente;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.*;
 
 public class Main {
@@ -202,6 +203,7 @@ public class Main {
                 // pelo método listar() do objeto clienteDAO.
                 // Esse método retorna uma lista de clientes no banco de dados.
                 JOptionPane.showMessageDialog(null, clienteDAO.listar());
+                
             }
         });
 
