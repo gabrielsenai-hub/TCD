@@ -31,11 +31,6 @@ public class ClienteDAO {
         return sessionFactory;
     }
 
-    /**
-     * Busca um Cliente pelo seu ID.
-     * @param id identificador do Cliente
-     * @return objeto Cliente se encontrado, ou null caso contrário
-     */
     public Cliente buscarCliente(int id){
         Session s = getSessionFactory().openSession(); // Abre uma sessão
         Cliente encontrado = s.get(Cliente.class, id); // Busca usando chave primária
@@ -43,10 +38,6 @@ public class ClienteDAO {
         return encontrado; // Retorna nulo ou cliente
     }
 
-    /**
-     * Persiste um novo Cliente no banco.
-     * @param c objeto Cliente a ser salvo
-     */
     public void salvar(Cliente c) {
         Session session = null;
         Transaction tx = null;
@@ -69,10 +60,6 @@ public class ClienteDAO {
         }
     }
 
-    /**
-     * Retorna lista de todos os Clientes no banco.
-     * @return List<Cliente>
-     */
     public List<Cliente> listar() {
         // Try-with-resources fecha a sessão automaticamente
         try (Session session = getSessionFactory().openSession()) {
@@ -83,10 +70,6 @@ public class ClienteDAO {
         }
     }
 
-    /**
-     * Atualiza dados de um Cliente existente.
-     * @param cliente objeto Cliente com ID e novos valores
-     */
     public void atualizar(Cliente cliente) {
         Session s = getSessionFactory().openSession();
         Transaction tx = null;
@@ -104,11 +87,6 @@ public class ClienteDAO {
         }
     }
 
-    /**
-     * Deleta um Cliente pelo ID.
-     * @param id identificador do Cliente
-     * @return string vazia se sucesso, ou null se não encontrado
-     */
     public String deletar(int id) {
         Transaction tx;
 
