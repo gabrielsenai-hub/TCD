@@ -6,7 +6,7 @@ Este repositório contém o projeto desenvolvido como **Trabalho Final da discip
 
 ## Tecnologias Utilizadas
 
-- **Java SE 23**  
+- **Java Development Kit 23**  
 - **Swing** (interface gráfica)  
 - **Hibernate 5.6.15.Final** (ORM)  
 - **MySQL 8.x** (banco de dados relacional)  
@@ -78,6 +78,29 @@ Este repositório contém o projeto desenvolvido como **Trabalho Final da discip
 
 1. Instale o **MySQL Workbench**.
 2. [Baixe](https://drive.google.com/file/d/1AJ3VKyzebuCLdL-Li0rcSTVlnPjp0TRc/view?usp=drive_link) e rode o script sql no MySQL Connections.
-3. Atualize o hibernate.cfg.xml com o seus dados de usuario e senha, assim como a url JDBC(não é preciso se o IP do localhost for o mesmo).
+3. Atualize o hibernate.cfg.xml com o seus dados de usuario e senha, assim como a url JDBC do seu servidor local.
 
+---
 
+ 
+## Aprendizados e Dificuldades dos integrantes
+
+<ul>
+ <ul>
+	<code>Arthur Michelângelo</code>
+    <ul>
+      <li>Obstáculo: “Compreender a estrutura e o papel de cada classe dentro da arquitetura do sistema.”</li>
+      <li>Conhecimento adquirido: “Capacidade de identificar responsabilidades e interações entre classes, favorecendo uma arquitetura coesa e de fácil manutenção.”</li>
+    </ul>
+  <code>Gabriel Oliveira</code>
+    <ul>
+      <li>Obstáculo:  “Compreender a sintaxe do Hibernate e como conectá-lo ao MySQL.”</li>
+      <li>Conhecimento adquirido: “Familiaridade com os conceitos de ORM e conexão com banco de dados relacional.”</li>
+    </ul>
+<code>Leandro Rivas</code>
+    <ul> 
+      <li>Obstáculo: “Entender o processo de organização das classes no uso de dependências.”</li>
+      <li>Conhecimento adquirido: “Aprendizado sobre separação de responsabilidades entre entidades e serviços.”</li>
+    </ul>
+     </ul>
+</ul>
