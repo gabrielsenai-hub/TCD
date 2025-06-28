@@ -86,17 +86,20 @@ Este repositório contém o projeto desenvolvido como **Trabalho Final da discip
 ## Aprendizados e Dificuldades dos integrantes
 
 <ul>
+<br>
  <ul>
 	<code>Arthur Michelângelo</code>
     <ul>
       <li>Obstáculo: “Compreender a estrutura e o papel de cada classe dentro da arquitetura do sistema.”</li>
       <li>Conhecimento adquirido: “Capacidade de identificar responsabilidades e interações entre classes, favorecendo uma arquitetura coesa e de fácil manutenção.”</li>
     </ul>
+    <br>
   <code>Gabriel Oliveira</code>
     <ul>
       <li>Obstáculo:  “Compreender a sintaxe do Hibernate e como conectá-lo ao MySQL.”</li>
       <li>Conhecimento adquirido: “Familiaridade com os conceitos de ORM e conexão com banco de dados relacional.”</li>
     </ul>
+    <br>
 <code>Leandro Rivas</code>
     <ul> 
       <li>Obstáculo: “Entender o processo de organização das classes no uso de dependências.”</li>
